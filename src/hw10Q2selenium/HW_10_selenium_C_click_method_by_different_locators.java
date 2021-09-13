@@ -15,7 +15,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class HW_10_selenium_C_click_method_by_different_locater {
+public class HW_10_selenium_C_click_method_by_different_locators {
 	WebDriver driver;
 
 	@BeforeTest
@@ -24,24 +24,25 @@ public class HW_10_selenium_C_click_method_by_different_locater {
 		driver = new ChromeDriver();// Instantiation
 		driver.manage().window().maximize();// method for screen maximize
 		driver.get("https://www.aa.com/homePage.do");// Working on this web site used get method
-		Thread.sleep(5000);// Thread isThread a class used for display web element for 5 second
+		Thread.sleep(5000);// Thread is a class used for display web element for 5 second
 	}
 
 	@Test(enabled = true, priority = 1) // Use boolean type for execution or to run
 	public void planTravelButtonFieldTest() throws InterruptedException {// Testing the plan travel button by creating
-	driver.findElement(By.id("plan-travel-expander")).click();// Here using Id as locater we have to type By.
+	driver.findElement(By.id("plan-travel-expander")).click();// Here using Id as locator we have to type By.
 	Thread.sleep(3000);
 
 	}
 
-	@Test(enabled = false, priority = 2)
+	@Test(enabled = true, priority = 2)
 	public void joinButtonFieldTest() throws InterruptedException {// Testing Join Button by creating joininButtontest
 	    driver.findElement(By.className("header-button")).click();// Class Name locator used click method
 	    Thread.sleep(3000);
 	}
-
+    //We have to use webdriver wait, it is failing now 
 	@Test(enabled = true, priority = 3)
 	public void departDateFieldTest() throws InterruptedException {// Testing departDate by creating method
+		//Thread.sleep(3000);
 		driver.findElement(By.name("departDate")).click();// Name locator used
 		Thread.sleep(3000);
 
@@ -49,7 +50,7 @@ public class HW_10_selenium_C_click_method_by_different_locater {
 
 	@Test(enabled = false, priority = 4)
 	public void travelWithConfidenceFieldTest() throws InterruptedException {		
-	driver.findElement(By.cssSelector(".header-button")).click();// CSS selector for class locater use period or															
+	driver.findElement(By.cssSelector(".header-button")).click();// CSS selector for class locator use period or . dot															
 	Thread.sleep(3000);
 
 	}
@@ -60,7 +61,7 @@ public class HW_10_selenium_C_click_method_by_different_locater {
 		Thread.sleep(5000);
 	}
 
-    @Test(enabled = false, priority = 6)
+    @Test(enabled = true, priority = 6)
     public void loginButtonBelowFieldTest() throws InterruptedException {
 	driver.findElement(By.xpath("//div[text()='Have an AAdvantage® account?']")).isEnabled();
 	Thread.sleep(5000);

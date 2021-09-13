@@ -21,7 +21,7 @@ public class HW_10_selenium_B_click_method {
   
   @BeforeTest
   public void setUp() throws InterruptedException {
-	  System.setProperty("webdriver.chrome.driver","C:\\Users\\Khawja Zishan Quader\\eclipse-workspace\\SelleniumProjects\\driver\\chromedriver.exe");
+  System.setProperty("webdriver.chrome.driver","C:\\Users\\Khawja Zishan Quader\\eclipse-workspace\\SelleniumProjects\\driver\\chromedriver.exe");
 	  driver = new ChromeDriver();
 	  driver.manage().window().maximize();
 	  driver.get("https://www.aa.com/homePage.do"); 

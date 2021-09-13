@@ -1,29 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="5" total="7" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-12T02:16:57 EDT" name="Default suite" finished-at="2021-09-12T02:17:14 EDT" duration-ms="16870">
+  <suite started-at="2021-09-13T00:32:19 EDT" name="Default suite" finished-at="2021-09-13T00:32:34 EDT" duration-ms="15554">
     <groups>
     </groups>
-    <test started-at="2021-09-12T02:16:57 EDT" name="Default test" finished-at="2021-09-12T02:17:14 EDT" duration-ms="16870">
-      <class name="hw10Q2selenium.HW_10_selenium_C_click_method_by_different_locater">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:hw10Q2selenium.HW_10_selenium_C_click_method_by_different_locater@a3d8174]" started-at="2021-09-12T02:16:57 EDT" name="setUp" finished-at="2021-09-12T02:17:07 EDT" duration-ms="10225" status="PASS">
+    <test started-at="2021-09-13T00:32:19 EDT" name="Default test" finished-at="2021-09-13T00:32:34 EDT" duration-ms="15554">
+      <class name="hw10Q2selenium.HW_10_selenium_D_sendkey_method_using_xpath">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:hw10Q2selenium.HW_10_selenium_D_sendkey_method_using_xpath@2f8dad04]" started-at="2021-09-13T00:32:19 EDT" name="setUp" finished-at="2021-09-13T00:32:29 EDT" duration-ms="10045" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="planTravelButtonFieldTest()[pri:1, instance:hw10Q2selenium.HW_10_selenium_C_click_method_by_different_locater@a3d8174]" started-at="2021-09-12T02:17:07 EDT" name="planTravelButtonFieldTest" finished-at="2021-09-12T02:17:10 EDT" duration-ms="3126" status="PASS">
+        <test-method signature="employeeIdTest()[pri:0, instance:hw10Q2selenium.HW_10_selenium_D_sendkey_method_using_xpath@2f8dad04]" started-at="2021-09-13T00:32:29 EDT" name="employeeIdTest" finished-at="2021-09-13T00:32:34 EDT" duration-ms="5121" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- planTravelButtonFieldTest -->
-        <test-method signature="departDateFieldTest()[pri:3, instance:hw10Q2selenium.HW_10_selenium_C_click_method_by_different_locater@a3d8174]" started-at="2021-09-12T02:17:11 EDT" name="departDateFieldTest" finished-at="2021-09-12T02:17:14 EDT" duration-ms="3176" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- departDateFieldTest -->
-        <test-method is-config="true" signature="tearUp()[pri:0, instance:hw10Q2selenium.HW_10_selenium_C_click_method_by_different_locater@a3d8174]" started-at="2021-09-12T02:17:14 EDT" name="tearUp" finished-at="2021-09-12T02:17:14 EDT" duration-ms="296" status="PASS">
+        </test-method> <!-- employeeIdTest -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:hw10Q2selenium.HW_10_selenium_D_sendkey_method_using_xpath@2f8dad04]" started-at="2021-09-13T00:32:34 EDT" name="tearUp" finished-at="2021-09-13T00:32:34 EDT" duration-ms="350" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearUp -->
-      </class> <!-- hw10Q2selenium.HW_10_selenium_C_click_method_by_different_locater -->
+      </class> <!-- hw10Q2selenium.HW_10_selenium_D_sendkey_method_using_xpath -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

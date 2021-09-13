@@ -14,7 +14,7 @@ public class HW_10_selenium_A_get_method {//Get method utilized
         driver.get("https://www.aa.com/homePage.do");//American Airlines link used from web site
         Thread.sleep(5000);//Thread used to show AA web site for 5 second
         driver.quit();// Quit used to complete the task
-        
+        //Here we are checking set up working properly or not and not test started pass or failed
 	}
 	
 
