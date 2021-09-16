@@ -50,7 +50,7 @@ public class HW_10_selenium_C_click_method_by_different_locators {
 
 	@Test(enabled = false, priority = 4)
 	public void travelWithConfidenceFieldTest() throws InterruptedException {		
-	driver.findElement(By.cssSelector(".header-button")).click();// CSS selector for class locator use period or . dot															
+	driver.findElement(By.cssSelector(".header-button")).click();// CSS selector for class locator use period or . dot fr id #															
 	Thread.sleep(3000);
 
 	}

@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="hw10Q2selenium.HW_10_selenium_C_click_method_by_different_locators">
+      <class name="hw11Q2selenium.HW_11_use_of_Maximize_Driver">
         <methods>
+          <include name="waitForWindow"/>
           <include name="setUp"/>
-          <include name="departDateFieldTest"/>
           <include name="tearUp"/>
-          <include name="loginButtonBelowFieldTest"/>
         </methods>
-      </class> <!-- hw10Q2selenium.HW_10_selenium_C_click_method_by_different_locators -->
+      </class> <!-- hw11Q2selenium.HW_11_use_of_Maximize_Driver -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

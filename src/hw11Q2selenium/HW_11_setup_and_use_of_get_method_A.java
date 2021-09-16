@@ -14,7 +14,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
  *8.Please push the code in github and share the link below.
  */
  // Selenium set up get method with manage, window, maximize screen and quite method used CVS web site with main method
-public class HW_11_selenium_Setup_and_use_of_get_method_A {
+public class HW_11_setup_and_use_of_get_method_A {
 
 	public static void main(String[] args) throws InterruptedException {//main method utilized
 	System.setProperty("webdriver.chrome.driver","C:\\Users\\Khawja Zishan Quader\\eclipse-workspace\\SelleniumProjects\\driver\\chromedriver.exe");

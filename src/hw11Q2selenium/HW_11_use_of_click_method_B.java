@@ -7,7 +7,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class HW_11_selenium_use_of_click_method_B {
+public class HW_11_use_of_click_method_B {
 	WebDriver driver;
 	
 	@BeforeTest
@@ -15,13 +15,13 @@ public class HW_11_selenium_use_of_click_method_B {
 	  System.setProperty("webdriver.chrome.driver","C:\\Users\\Khawja Zishan Quader\\eclipse-workspace\\SelleniumProjects\\driver\\chromedriver.exe");
 		  driver = new ChromeDriver();
 		  driver.manage().window().maximize();
-		  driver.get("https://www.cvs.com/"); 
-		  Thread.sleep(5000);
+		  driver.get("https://www.ebay.com/"); 
+		  Thread.sleep(3000);
 	  }
 	  
-	  @Test
-		public void logoTest() {
-			driver.findElement(By.id("button-cancel")).click();//Click method utilized
+	 @Test
+	 public void ebeySearchFieldButtonTest() {
+		 driver.findElement(By.id("gh-btn")).click();
 			
 		}
 	  @AfterTest
