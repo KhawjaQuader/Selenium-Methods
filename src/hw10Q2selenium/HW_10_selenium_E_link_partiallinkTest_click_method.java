@@ -11,9 +11,7 @@ package hw10Q2selenium;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.ClickAction;
 import org.testng.annotations.AfterTest;
-//Use of get method
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 public class HW_10_selenium_E_link_partiallinkTest_click_method {
@@ -37,7 +35,7 @@ public class HW_10_selenium_E_link_partiallinkTest_click_method {
   @Test
 	public void shopForCovidTestB() throws InterruptedException {
 		driver.findElement(By.partialLinkText("Shop for COVID-19 ")).click();
-		Thread.sleep(5000);
+		Thread.sleep(5000); 
 	}
   @AfterTest
 	public void tearUp() {

@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="hw11Q2selenium.HW_11_use_of_Maximize_Driver">
+      <class name="hw10Q2selenium.HW_10_selenium_E_link_partiallinkTest_click_method">
         <methods>
-          <include name="waitForWindow"/>
+          <include name="shopForCovidTestB"/>
           <include name="setUp"/>
+          <include name="shopForCovidTestA"/>
           <include name="tearUp"/>
         </methods>
-      </class> <!-- hw11Q2selenium.HW_11_use_of_Maximize_Driver -->
+      </class> <!-- hw10Q2selenium.HW_10_selenium_E_link_partiallinkTest_click_method -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

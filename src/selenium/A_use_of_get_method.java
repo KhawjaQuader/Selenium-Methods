@@ -7,7 +7,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class B_use_of_get_method {
+public class A_use_of_get_method {
 	WebDriver driver;
 
 	@BeforeTest

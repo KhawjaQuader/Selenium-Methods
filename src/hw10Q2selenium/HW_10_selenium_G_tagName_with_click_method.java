@@ -30,7 +30,7 @@ public class HW_10_selenium_G_tagName_with_click_method {
   
   @Test
 	public void joinButtonTest() throws InterruptedException {
-//driver.findElement(By.tagName("a"));//Click method can not go with this ???
+	 driver.findElement(By.tagName("a"));//Click method can not go with this ???
 		Thread.sleep(5000);
 	}
   @AfterTest
