@@ -12,7 +12,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class HW_11_use_of_HoverOver_Action_method {
+public class HW_11_use_of_HoverOver_Action_method_C {
 WebDriver driver;
 
 @BeforeTest
@@ -37,7 +37,7 @@ public void setUp() throws InterruptedException {
 	
 	@AfterTest
 	public void tearUp() {
-		driver.close(); 
+		driver.close();  
 	}
 	
 }

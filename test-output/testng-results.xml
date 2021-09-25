@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-20T20:36:46 EDT" name="Default suite" finished-at="2021-09-20T20:37:02 EDT" duration-ms="16713">
+  <suite started-at="2021-09-25T01:39:26 EDT" name="Default suite" finished-at="2021-09-25T01:39:39 EDT" duration-ms="13071">
     <groups>
     </groups>
-    <test started-at="2021-09-20T20:36:46 EDT" name="Default test" finished-at="2021-09-20T20:37:02 EDT" duration-ms="16713">
-      <class name="hw10Q2selenium.HW_10_selenium_G_tagName_with_click_method">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:hw10Q2selenium.HW_10_selenium_G_tagName_with_click_method@2f8dad04]" started-at="2021-09-20T20:36:46 EDT" name="setUp" finished-at="2021-09-20T20:36:57 EDT" duration-ms="11313" status="PASS">
+    <test started-at="2021-09-25T01:39:26 EDT" name="Default test" finished-at="2021-09-25T01:39:39 EDT" duration-ms="13071">
+      <class name="hw12Q2selenium.HW_12_D_use_of_Rightclick">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:hw12Q2selenium.HW_12_D_use_of_Rightclick@2f8dad04]" started-at="2021-09-25T01:39:26 EDT" name="setUp" finished-at="2021-09-25T01:39:28 EDT" duration-ms="2499" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="joinButtonTest()[pri:0, instance:hw10Q2selenium.HW_10_selenium_G_tagName_with_click_method@2f8dad04]" started-at="2021-09-20T20:36:57 EDT" name="joinButtonTest" finished-at="2021-09-20T20:37:02 EDT" duration-ms="5047" status="PASS">
+        <test-method signature="rightActionTest()[pri:1, instance:hw12Q2selenium.HW_12_D_use_of_Rightclick@2f8dad04]" started-at="2021-09-25T01:39:28 EDT" name="rightActionTest" finished-at="2021-09-25T01:39:38 EDT" duration-ms="10308" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- joinButtonTest -->
-        <test-method is-config="true" signature="tearUp()[pri:0, instance:hw10Q2selenium.HW_10_selenium_G_tagName_with_click_method@2f8dad04]" started-at="2021-09-20T20:37:02 EDT" name="tearUp" finished-at="2021-09-20T20:37:02 EDT" duration-ms="306" status="PASS">
+        </test-method> <!-- rightActionTest -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:hw12Q2selenium.HW_12_D_use_of_Rightclick@2f8dad04]" started-at="2021-09-25T01:39:38 EDT" name="tearUp" finished-at="2021-09-25T01:39:39 EDT" duration-ms="200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearUp -->
-      </class> <!-- hw10Q2selenium.HW_10_selenium_G_tagName_with_click_method -->
+      </class> <!-- hw12Q2selenium.HW_12_D_use_of_Rightclick -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

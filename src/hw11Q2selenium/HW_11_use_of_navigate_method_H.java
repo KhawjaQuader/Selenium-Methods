@@ -6,7 +6,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class HW_11_use_of_navigate_method {
+public class HW_11_use_of_navigate_method_H {
 	WebDriver driver;
 	
 	@BeforeTest

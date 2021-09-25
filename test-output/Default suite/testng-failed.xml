@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="hw10Q2selenium.HW_10_selenium_E_link_partiallinkTest_click_method">
+      <class name="hw12Q2selenium.HW_12_C_Three_methods_of_dropdown_Rightclick_handling_alert">
         <methods>
-          <include name="shopForCovidTestB"/>
-          <include name="setUp"/>
-          <include name="shopForCovidTestA"/>
           <include name="tearUp"/>
+          <include name="setUp"/>
+          <include name="ebeyDropdownButtonWithIndexTest"/>
         </methods>
-      </class> <!-- hw10Q2selenium.HW_10_selenium_E_link_partiallinkTest_click_method -->
+      </class> <!-- hw12Q2selenium.HW_12_C_Three_methods_of_dropdown_Rightclick_handling_alert -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -8,7 +8,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class HW_11_use_of_sendKey_click_clear_method_with_keys_enter_function {
+public class HW_11_use_of_IsDisplayed_method_D {
 WebDriver driver;
 
 @BeforeTest
@@ -21,17 +21,14 @@ public void setUp() throws InterruptedException {
 }
 	
 	@Test(enabled = true, priority = 1)
-	public void testSearchButtonAfterWritingItemNameInSearchField() throws InterruptedException {
-		driver.findElement(By.xpath("//input[@class='gh-tb ui-autocomplete-input']")).sendKeys("Laptop");
-		driver.findElement(By.xpath("//input[@class='btn btn-prim gh-spr']")).click();
-		Thread.sleep(4000);
-		driver.findElement(By.xpath("//input[@class='gh-tb ui-autocomplete-input']")).clear();
-	}
-	
-	@Test(enabled = true, priority = 2)
-	public void testSearchButtonAfterSecondItemInSearchFeid() throws InterruptedException {
-		driver.findElement(By.xpath("//input[@class='gh-tb ui-autocomplete-input']")).sendKeys("TV",Keys.ENTER);
-		Thread.sleep(3000);
+	public void ebeyLogoTest()  {
+		Boolean elementLogo = driver.findElement(By.xpath("//a[@id='gh-la']")).isDisplayed();
+		System.out.println(elementLogo);
+	//Boolean is a type of action add to show true or false
+	//isDisplayed is a method
+	//Sysout is to print true or false
+	//elementLogo is the name of element
+	//We are testing with isDisplayed method	
 	}
 	
 	@AfterTest

@@ -48,17 +48,17 @@ public class HW_10_selenium_C_click_method_by_different_locators {
 
 	}
 
-	@Test(enabled = true, priority = 4)
+	@Test(enabled = false, priority = 4)
 	public void travelWithConfidenceBigRectangleBoxFieldTest() throws InterruptedException {		
-	driver.findElement(By.cssSelector(".span6.bannerContainerB1.bannerCard")).click();// CSS selector for class locator use period or . dot fr id #															
-	Thread.sleep(5000);//header-button
+	driver.findElement(By.cssSelector(".span6.bannerContainerB1.bannerCard")).click();// CSS selector for class locator use period or . dot														
+	Thread.sleep(5000);
 
 	}
 	
 	@Test(enabled = true, priority = 5)
 	public void planTravelButtonTest() throws InterruptedException {		
-	driver.findElement(By.cssSelector("#plan-travel-expander")).click();// CSS selector for class locator use period or . dot fr id #															
-	Thread.sleep(5000);//header-button
+	driver.findElement(By.cssSelector("#plan-travel-expander")).click();// # hash sign used for ID locator															
+	Thread.sleep(5000);
 
 	}
 

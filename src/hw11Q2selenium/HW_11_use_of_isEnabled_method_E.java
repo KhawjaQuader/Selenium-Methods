@@ -8,7 +8,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class HW_11_use_of_isEnabled_methor {
+public class HW_11_use_of_isEnabled_method_E {
 WebDriver driver;
 
 @BeforeTest

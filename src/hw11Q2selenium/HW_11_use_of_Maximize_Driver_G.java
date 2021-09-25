@@ -9,7 +9,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class HW_11_use_of_Maximize_Driver {
+public class HW_11_use_of_Maximize_Driver_G {
 WebDriver driver;
 
 @BeforeTest
@@ -21,9 +21,10 @@ public void setUp() throws InterruptedException {
 }
 	
 	@Test(enabled = true, priority = 1)
-	public void maximizeWindow() {
+	public void maximizeWindow() throws InterruptedException {
 		driver.manage().window().maximize();
 		driver.get("https://www.ebay.com/");
+		Thread.sleep(3000);
 	}	
 	@Test(enabled = true, priority = 2)
 	public void fullScreenWindow() throws InterruptedException {

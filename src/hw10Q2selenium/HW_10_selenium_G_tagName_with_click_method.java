@@ -11,9 +11,7 @@ package hw10Q2selenium;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.ClickAction;
 import org.testng.annotations.AfterTest;
-//Use of get method
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 public class HW_10_selenium_G_tagName_with_click_method {
