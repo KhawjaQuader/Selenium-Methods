@@ -1,19 +1,14 @@
 package hw12Q2selenium;
 
-import java.awt.event.ActionEvent;
-
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
-
 
 /*
  * Create a package "hw12Q2selenium" inside the Selenium project and execute the remaining. Read the question very carefully. Create a class and give a name. choose a website (from the project list, you can use multiple website to show below messages, just create different class) and try to use the below methods. pageLoadTimeout(), setScriptTimeout(), JavascriptExecutor for click and send keys, 3 methods of dropdown, right click action and handling Alert. Use terminal from eclipse IDE, Please push the code in github and share the link below.

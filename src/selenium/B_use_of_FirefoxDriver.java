@@ -17,12 +17,12 @@ public class B_use_of_FirefoxDriver {
 	driver.manage().window().maximize();
 	driver.manage().deleteAllCookies();
 	driver.get("https://www.ebay.com/");
-	
+	Thread.sleep(3000);
 	}
 	@Test
-	public void searchFieldButtonTest() {
+	public void searchFieldBlueButtonTest() throws InterruptedException {
 		driver.findElement(By.xpath("//input[@id='gh-btn']")).click();
-		
+		Thread.sleep(5000);
 	}
 
 	@AfterTest

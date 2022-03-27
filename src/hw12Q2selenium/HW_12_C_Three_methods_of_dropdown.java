@@ -31,26 +31,26 @@ WebDriver driver;
 	 @Test(priority = 1)
 	 public void dropdownButtonWithIndexTest() throws InterruptedException {
 		WebElement dropdown = driver.findElement(By.xpath("//select[@id='gh-cat']"));//1st define webelement
-		Select select = new Select(dropdown);//select used instead fo click
+		Select select = new Select(dropdown);//select used instead of click
 		Thread.sleep(3000);
 		select.selectByIndex(2);//From the drop down start from 0 and will select number 2 drop down index to show number 3
 		Thread.sleep(3000);//Select by index method 
 		}
 	 @Test(priority = 2)
-	 public void seleceByVisiblaTextTest() throws InterruptedException {
+	 public void selectByVisiblaTextTest() throws InterruptedException {
 		WebElement dropdown = driver.findElement(By.xpath("//select[@id='gh-cat']"));
 		Select select = new Select(dropdown);//select used instead of click
 		Thread.sleep(3000);
-		select.selectByVisibleText("Books");
-		Thread.sleep(3000);//Select by visible text
+		select.selectByVisibleText("Books");//Select by visible text
+		Thread.sleep(3000);
 		}
 	 @Test(priority = 3)//To perform task go to web page bring item by using dropdown inspect & choose value number from select drop down option
-	 public void seleceByValueTextTest() throws InterruptedException {
+	 public void selectByValueTextTest() throws InterruptedException {
 		WebElement dropdown = driver.findElement(By.xpath("//select[@id='gh-cat']"));
 		Select select = new Select(dropdown);//select used instead of click
 		Thread.sleep(3000);
-		select.selectByValue("2984");
-		Thread.sleep(3000);//Select by value text
+		select.selectByValue("2984");//Select by value text
+		Thread.sleep(3000);
 	 }
 	  @AfterTest
 		public void tearUp() {

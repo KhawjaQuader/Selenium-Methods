@@ -8,28 +8,28 @@ package hw10Q2selenium;
  *6. get(), maximize(), click(), isDisplayed(), isEnabled(), isSelected(), navigate(), sendKeys().
  * Also use all types of locator which are unique (1 of 1). 
  */
-import org.openqa.selenium.By;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.ClickAction;
-import org.openqa.selenium.internal.FindsByXPath;
 import org.testng.annotations.AfterTest;
 //Use of get method
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+
 public class HW_10_selenium_F_navigate_method {
-  WebDriver driver;
-  
-  @BeforeTest
-  public void setUp() throws InterruptedException {
-	  System.setProperty("webdriver.chrome.driver","C:\\Users\\Khawja Zishan Quader\\eclipse-workspace\\SelleniumProjects\\driver\\chromedriver.exe");
-	  driver = new ChromeDriver();
-	  driver.manage().window().maximize();
-	  driver.get("https://www.aa.com/homePage.do"); 
-	  Thread.sleep(5000);
-  }
-  
-  @Test
+	WebDriver driver;
+
+	@BeforeTest
+	public void setUp() throws InterruptedException {
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\Khawja Zishan Quader\\eclipse-workspace\\SelleniumProjects\\driver\\chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://www.aa.com/homePage.do");
+		Thread.sleep(5000);
+	}
+
+	@Test
 	public void navigationTest() throws InterruptedException {
 		driver.navigate().to("https://www.cvs.com");
 		Thread.sleep(5000);
@@ -38,12 +38,10 @@ public class HW_10_selenium_F_navigate_method {
 		driver.navigate().forward();
 		Thread.sleep(3000);
 	}
-  @AfterTest
+
+	@AfterTest
 	public void tearUp() {
 		driver.quit();
 	}
 
-  }
-  
-
-
+}

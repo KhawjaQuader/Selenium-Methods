@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="hw12Q2selenium.HW_12_C_Three_methods_of_dropdown_Rightclick_handling_alert">
+      <class name="selenium.A_use_of_get_method">
         <methods>
-          <include name="tearUp"/>
           <include name="setUp"/>
-          <include name="ebeyDropdownButtonWithIndexTest"/>
+          <include name="loginButtonTest"/>
+          <include name="tearUp"/>
         </methods>
-      </class> <!-- hw12Q2selenium.HW_12_C_Three_methods_of_dropdown_Rightclick_handling_alert -->
+      </class> <!-- selenium.A_use_of_get_method -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

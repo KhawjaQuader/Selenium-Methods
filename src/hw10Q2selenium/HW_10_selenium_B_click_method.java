@@ -1,4 +1,5 @@
 package hw10Q2selenium;
+
 /*
  *1.Create a package "hw10Q2selenium" 
  *2.inside the Selenium project and execute the remaining. Read the question very carefully. 
@@ -11,34 +12,32 @@ package hw10Q2selenium;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.ClickAction;
 import org.testng.annotations.AfterTest;
-//Use of get method
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+
 public class HW_10_selenium_B_click_method {
-  WebDriver driver;
-  
-  @BeforeTest
-  public void setUp() throws InterruptedException {
-  System.setProperty("webdriver.chrome.driver","C:\\Users\\Khawja Zishan Quader\\eclipse-workspace\\SelleniumProjects\\driver\\chromedriver.exe");
-	  driver = new ChromeDriver();
-	  driver.manage().window().maximize();
-	  driver.get("https://www.aa.com/homePage.do"); 
-	  Thread.sleep(5000);
-  }
-  
-  @Test
-	public void logoTest() {
-		driver.findElement(By.id("aa-lang-en")).click();//Click method utilized
-		
+	WebDriver driver;
+
+	@BeforeTest
+	public void setUp() throws InterruptedException {
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\Khawja Zishan Quader\\eclipse-workspace\\SelleniumProjects\\driver\\chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://www.aa.com/homePage.do");
+		Thread.sleep(5000);
 	}
-  @AfterTest
+
+	@Test
+	public void logoTest() {
+		driver.findElement(By.id("aa-lang-en")).click();// Click method utilized
+
+	}
+
+	@AfterTest
 	public void tearUp() {
 		driver.quit();
 	}
 
-  }
-  
-
-
+}

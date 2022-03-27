@@ -1,4 +1,5 @@
 package hw10Q2selenium;
+
 /*
  *1.Create a package "hw10Q2selenium" 
  *2.inside the Selenium project and execute the remaining. Read the question very carefully. 
@@ -11,35 +12,33 @@ package hw10Q2selenium;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.ClickAction;
-import org.openqa.selenium.internal.FindsByXPath;
 import org.testng.annotations.AfterTest;
 //Use of get method
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+
 public class HW_10_selenium_D_sendkey_method_using_xpath {
-  WebDriver driver;
-  
-  @BeforeTest
-  public void setUp() throws InterruptedException {
-	  System.setProperty("webdriver.chrome.driver","C:\\Users\\Khawja Zishan Quader\\eclipse-workspace\\SelleniumProjects\\driver\\chromedriver.exe");
-	  driver = new ChromeDriver();
-	  driver.manage().window().maximize();
-	  driver.get("https://apps.emirates.com/login.html"); 
-	  Thread.sleep(5000);
-  }
-  
-  @Test
+	WebDriver driver;
+
+	@BeforeTest
+	public void setUp() throws InterruptedException {
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\Khawja Zishan Quader\\eclipse-workspace\\SelleniumProjects\\driver\\chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://apps.emirates.com/login.html");
+		Thread.sleep(5000);
+	}
+
+	@Test
 	public void employeeIdTest() throws InterruptedException {
 		driver.findElement(By.xpath("//input[@id='j_username']")).sendKeys("13523");
 		Thread.sleep(5000);
 	}
-  @AfterTest
+
+	@AfterTest
 	public void tearUp() {
 		driver.quit();
 	}
 
-  }
-  
-
-
+}
